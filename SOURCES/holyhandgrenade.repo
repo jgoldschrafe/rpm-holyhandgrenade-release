@@ -1,0 +1,11 @@
+[holyhandgrenade]
+name=holyhandgrenade.org - Stable
+baseurl=http://repo.holyhandgrenade.org/rhel/stable/$releasever/$basearch
+gpgcheck=0
+enabled=1
+
+[holyhandgrenade-testing]
+name=holyhandgrenade.org - Testing
+baseurl=http://repo.holyhandgrenade.org/rhel/testing/$releasever/$basearch
+gpgcheck=0
+enabled=0
